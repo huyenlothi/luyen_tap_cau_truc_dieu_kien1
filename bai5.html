@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai5</title>
+</head>
+<body>
+<script>
+    let test1 = parseInt(prompt("nhap diem bai kiem tra"));
+    let test2 = parseInt(prompt("nhap diem thi giua ki"));
+    let test3 = parseInt(prompt("nhap diem thi cuoi ki"));
+    let average = (test1 + test2 + test3) / 3;
+    if ( average >= 80) {
+        alert("loai A");
+    }else {
+        if (average >= 60) {
+            alert("loai B");
+        }else {
+            if (average >= 45) {
+                alert("loai C");
+            } else {
+                if (average>= 35) {
+                    alert("loai D");
+                } else {
+                    alert("loai F");
+                }
+            }
+        }
+    }
+</script>
+</body>
+</html>
